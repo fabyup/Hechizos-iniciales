@@ -10,13 +10,13 @@ const leer = require("prompt-sync")();
  */
 
 function main(edad) {
-  let edad1 = 16;
-  console.log("Ingresa tu edad :" + 16);
-  if (edad1>=11) {
+  console.log("Ingresa tu edad");
+  let edadIngresada = Number(leer());
+  if (edadIngresada >= 11) {
     console.log("Podes comprar varitas");
   } else {
-    console.log("no podes comprar");
+    console.log("No podes comprar varitas");
   }
 }
 
-main(16, 11);
+main();
