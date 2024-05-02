@@ -9,9 +9,10 @@ const leer = require("prompt-sync")();
  */
 
 
-function main() {
-    
+function main(mandragoras,escarabajos) {
+   let suma= 8 + 5;
+   console.log("La cantidad de ingredientes es..." + suma); 
 }
 
 
-main();
+main(8,5);
