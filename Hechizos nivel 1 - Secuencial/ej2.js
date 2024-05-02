@@ -11,9 +11,10 @@ const leer = require("prompt-sync")();
  */
 
 
-function main() {
-    
+function main(varitas,libros){
+    let multiplicarVaritas= 7 * 3;
+    let multiplicarLibros= 4 * 2;
+    console.log("La cantidad de ingredientes son...",multiplicarVaritas +multiplicarLibros)
 }
 
-
-main();
+main(7,3,4,2);
