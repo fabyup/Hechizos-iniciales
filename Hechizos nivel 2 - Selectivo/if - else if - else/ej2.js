@@ -17,8 +17,17 @@ const leer = require("prompt-sync")();
   let ingresarPuntuacion1 = Number(leer());
   if (ingresarPuntuacion1 >=90) {
     console.log("Pertenece a la casa Gryffindor");
+  }else if(ingresarPuntuacion1>=70){
+    console.log("pertenece a la casa Hufflepuff");
+    }
+    else if(ingresarPuntuacion1>=50){
+      console.log("Pertenece a la casa Ravenclaw");
+    }
+    else{
+      console.log("Slytherin");
+    }
   }
-}
+
 main();
 
 
