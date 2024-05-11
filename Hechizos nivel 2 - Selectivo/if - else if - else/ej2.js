@@ -12,22 +12,18 @@ const leer = require("prompt-sync")();
  * Por ejemplo si el estudiante saco 100 puntos entonces pertenece a Gryffindor o si sacara 30 entonces pertenece a Slytherin
  */
 
-  function main(Puntuacion) {
+function main(Puntuacion) {
   console.log("Podrias decirme cual fue tu puntuacion en el examen por favor");
   let ingresarPuntuacion1 = Number(leer());
-  if (ingresarPuntuacion1 >=90) {
+  if (ingresarPuntuacion1 >= 90) {
     console.log("Pertenece a la casa Gryffindor");
-  }else if(ingresarPuntuacion1>=70){
+  } else if (ingresarPuntuacion1 >= 70) {
     console.log("pertenece a la casa Hufflepuff");
-    }
-    else if(ingresarPuntuacion1>=50){
-      console.log("Pertenece a la casa Ravenclaw");
-    }
-    else{
-      console.log("Slytherin");
-    }
+  } else if (ingresarPuntuacion1 >= 50) {
+    console.log("Pertenece a la casa Ravenclaw");
+  } else {
+    console.log("Slytherin");
   }
+}
 
 main();
-
-
