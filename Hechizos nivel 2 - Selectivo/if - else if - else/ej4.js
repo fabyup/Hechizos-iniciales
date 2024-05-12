@@ -10,13 +10,20 @@ const leer = require("prompt-sync")();
  */
 
 function main() {
-  let astucia = 90;
-  let lealtad = 40;
-
-  if (astucia === 90) {
-    return "apta";
-  } else {
-    return "no apta";
+  let astucia
+  let lealtad
+  console.log("Ingresa tu nivel de astucia");
+  let niveles = Number(leer());
+  console.log("Ingresa tu nivel de lealtad");
+    let niveles1=Number(leer())
+  if (niveles >= 90) {
+    console.log("Es apta");
+  } else if (niveles1 >= 40) {
+    console.log("Es apta");
+  } else if (niveles >= 30) {
+    console.log("No es apta");
+  } else if (niveles1 >= 60) {
+    console.log("No es apta");
   }
 }
 
