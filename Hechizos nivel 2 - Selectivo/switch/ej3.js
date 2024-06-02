@@ -22,6 +22,35 @@ Avada Kedavra
 
 
 function main() {
+
+    let ExpectoPatronum= 1234;
+    let WingardiumLeviosa= 5678;
+    let AvadaKedavra=9000;
+
+    console.log("Ingresa un codigo de 4 digitos");
+    let codigoNumerico= Number( leer());
+
+    switch (codigoNumerico) {
+        case 1234:
+            console.log("ExpectoPatronum");
+            break;
+
+            case 5678:
+                console.log("WingardiumLeviosa");
+                break;
+                case 9000:
+                    console.log("AvadaKedavra");
+                    break;
+
+            default:
+                console.log("Elcodigo ingresado es incorrecto");
+                break;
+            
+    
+        
+    }
+
+
     
 }
 
