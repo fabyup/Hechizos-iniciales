@@ -17,4 +17,4 @@ function main(varitas,libros){
     console.log("La cantidad de ingredientes son...",multiplicarVaritas +multiplicarLibros)
 }
 
-main(7,3,4,2);
+main();

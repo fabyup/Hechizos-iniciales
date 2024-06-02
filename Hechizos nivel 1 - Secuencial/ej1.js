@@ -15,4 +15,3 @@ function main(mandragoras,escarabajos) {
 }
 
 
-main(8,5);

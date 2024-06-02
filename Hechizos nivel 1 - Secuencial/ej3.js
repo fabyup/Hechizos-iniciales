@@ -16,4 +16,4 @@ function main(plumas,nimbus2000){
 }
 
 
-main(35,0,1.5)
+main()

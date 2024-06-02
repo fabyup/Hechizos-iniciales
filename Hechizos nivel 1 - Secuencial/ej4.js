@@ -20,6 +20,6 @@ function main(magoEdad,diasHechizoPatronus) {
      console.log("Los dias de practica son..."+ diasDePractica);
      console.log("La potencia es.."+ potencia);
 }
-    main(25,158);
+    main();
 
 
