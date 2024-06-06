@@ -24,15 +24,15 @@ const leer = require("prompt-sync")();
 function main() {
   console.log("ingresa hechizo");
 
-  for (
-    let hechizoPatronusLanzados = 0;
-    hechizoPatronusLanzados < 3;
-    hechizoPatronusLanzados++
-  ) {
-    let intentos = leer();
-    if ((hechizoPatronusLanzados = hechizoPatronusLanzados)) {
+  for (let turno=0; turno<4; turno++) {
+
+    let hechizoPatronusLanzados = "patronus";
+
+     let turno =leer();
+    if ((hechizoPatronusLanzados == turno)) {
+       
       console.log("Acertaste el dementor tiene menos vida");
-    } else if ((intentos = intentos)) {
+    }else {
       console.log("El dementor esta avanzando");
     }
   }
