@@ -1,6 +1,6 @@
 const leer = require("prompt-sync")();
 
-/**
+/*
  * Ej 1
  * Es crucial que los estudiantes aprendan los nombres de los hechizos
  *  correctamente para realizar magia de manera efectiva. En la clase de
@@ -16,12 +16,29 @@ const leer = require("prompt-sync")();
  * Por ejemplo: hechizo "Wingardium leviosa", cantidad de intentos maximos 4
  *
  * Extra: permitir que el programa acepte 3 hechizos diferentes
+ * 
+ * 
+ * Expecto Patronum
+Wingardium Leviosa
+Expelliarmus
+Avada Kedavra
  */
 
-function main(hechizos) {
-     
+function main() {
+  console.log("Ingresa el nombre de un hechizo");
 
-  
+  for (let hechizos = 0; hechizos < 4; hechizos++) {
+    let nombreDeHechizos = leer();
+    if (nombreDeHechizos == "wingardium leviosa") {
+      console.log("muy bien");
+    }else if(nombreDeHechizos=="Expelliarmus"){
+      console.log("muy bien");
+    }else if(nombreDeHechizos=="Avada Kedavra"){
+      console.log("muy bien");
+    }else{
+      console.log("mal");
+    }
   }
+}
 
 main();
