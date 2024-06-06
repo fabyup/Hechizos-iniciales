@@ -23,7 +23,17 @@ const leer = require("prompt-sync")();
 
 
 function main() {
-   
+   let vidaMaximaDeDementor=1000
+   let hechizoAcertado=267
+
+    for(let hechizoPatronus=1;hechizoPatronus<=5;hechizoPatronus++){
+     if(vidaMaximaDeDementor-hechizoAcertado ){
+        console.log(hechizoPatronus,"");
+
+     }
+
+
+    }
     
 }
 
