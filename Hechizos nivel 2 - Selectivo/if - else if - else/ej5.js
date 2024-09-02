@@ -10,25 +10,22 @@ const leer = require("prompt-sync")();
  */
 
 function main() {
-  edad = Number(leer());
-  permiso1 = "si";
-  permiso = "no";
-
   console.log("Ingresa tu edad");
-  edad = Number(leer());
-  console.log("Tenes permiso");
-  permiso = leer();
-  if ((edad<= 12, permiso1 === permiso1)) {
+  let edad = Number(leer());
+   console.log("Tenes permiso");
+    let ingresarPermiso = (leer());
+
+    let permiso = "si";
+ 
+  if ((edad <= 12, ingresarPermiso !== permiso)) {
+
     console.log("No podes visitar Hogsmeade");
-      
-  }else if(edad>=13,permiso1 === permiso1){
+
+  } else if ((edad >= 13, ingresarPermiso == permiso)) {
     console.log("Podes visitar Hogsmeade");
   }
-
-  if(edad ==13, permiso1 === permiso1){
-    console.log("Podes visitar Hogsmeade");
-  }
-
+ 
+  
 }
 
 main();
