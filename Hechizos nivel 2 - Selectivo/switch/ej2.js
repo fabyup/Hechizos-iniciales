@@ -10,10 +10,25 @@ const leer = require("prompt-sync")();
  * Cualquier otro tipo de nucleo - No reconocemos ese tipo de núcleo. Por favor, ingrese un núcleo válido.
  */
 
-
 function main() {
-    
-}
+  let nucleos = leer();
 
+  switch (nucleos) {
+    case "fenix":
+      console.log("son poderosas");
+
+      break;
+    case "unicornio":
+      console.log("pureza y fuerza");
+      break;
+    case "dragon":
+      console.log("temperamentales");
+      break;
+
+    default:
+      console.log("no reconocemos ese tipo de nucleo");
+      break;
+  }
+}
 
 main();

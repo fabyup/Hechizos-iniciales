@@ -9,9 +9,11 @@ const leer = require("prompt-sync")();
  */
 
 
-function main() {
+function main(plumas,nimbus2000){
+    let suma= 35.0 + 1.5;
+    console.log("El peso de los Nimbus2000..." , suma );
     
 }
 
 
-main();
+main()

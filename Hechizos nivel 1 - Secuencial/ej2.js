@@ -15,7 +15,7 @@ function main(varitas, libros) {
   let suma = 4 + 4;
   let multi = 7 * 3;
   let total = multi + suma;
-  
+
   let estudianteTrajoVarita = "si";
 
   console.log("el total es " + total);

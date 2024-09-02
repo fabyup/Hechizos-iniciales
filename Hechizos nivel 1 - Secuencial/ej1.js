@@ -11,8 +11,17 @@ const leer = require("prompt-sync")();
 function calcular(mandragoras,escarabajos) {
    let suma= 8+5;
 
+<<<<<<< HEAD
    console.log("se necesita un total de ingredientes de .." + suma);
 }
 
 
 calcular();
+=======
+function main(mandragoras,escarabajos) {
+   let suma= 8 + 5;
+   console.log("La cantidad de ingredientes es..." + suma); 
+}
+
+
+>>>>>>> b50a383b51e1a3a56ae8da6720f89b2c85233279
