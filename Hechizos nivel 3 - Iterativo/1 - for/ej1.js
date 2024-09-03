@@ -18,27 +18,32 @@ const leer = require("prompt-sync")();
  * Extra: permitir que el programa acepte 3 hechizos diferentes
  * 
  * 
- * Expecto Patronum
+ *
+  Expecto Patronum
 Wingardium Leviosa
 Expelliarmus
 Avada Kedavra
  */
 
 function main() {
-  console.log("Ingresa el nombre de un hechizo");
+  for (let intentos = 0; intentos < 4; intentos++) {
+    console.log("Ingresa el nombre de un hechizo");
+            
+       let nombreDeHechizos =( leer());
+         
+         
+    if (nombreDeHechizos === "avada kedavra") {
+      nombreDeHechizos === "expelliarmus";
+      nombreDeHechizos === "wingardium leviosa";
+      nombreDeHechizos === "Expecto Patronum";
+      console.log("nombre correcto ");
+            
+    } else {
+      console.log("nombre incorrecto");
+    }
 
-  for (let hechizos = 0; hechizos < 4; hechizos++) {
-    let nombreDeHechizos = leer();
-    if (nombreDeHechizos == "wingardium leviosa") {
-      console.log("muy bien");
-    }else if(nombreDeHechizos=="Expelliarmus"){
-      console.log("muy bien");
-    }else if(nombreDeHechizos=="Avada Kedavra"){
-      console.log("muy bien");
-    }else{
-      console.log("mal");
+    {
     }
   }
 }
-
 main();
